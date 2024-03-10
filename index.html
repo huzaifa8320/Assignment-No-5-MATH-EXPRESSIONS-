@@ -31,6 +31,12 @@
         var increment="Value after increment is:"
         document.write(increment + ++initial + "<br>")
         document.write()
+        var addition = initial + 7
+        document.write("Value after addition is:" + " " + addition + "<br>")
+        var decrement= --addition
+        document.write("Value after decrement is:" + " " + decrement + "<br>")
+        var reminder = decrement % 2
+        document.write("The reminder is:" + " " + reminder)
 
         // Tast No 3
         var task3="<br><h1>Task No 3</h1>"
@@ -147,10 +153,14 @@
         var task12="<br><br><br><h1>Task No 12</h1>"
         document.write(task12)
         var snackn = prompt("Enter your favourite snack" ,"Chocolate chip")
+        document.write("Favourite Snack:" + " " + snackn + "<br>")
         var currentAge = prompt("Enter current age")
+        document.write("Current age:" + " " + currentAge + "<br>")
         var estimatedAge = prompt("Enter your Estimated Maximum Age")
+        document.write("Estimated Maximum Age:" + " " + estimatedAge + "<br>")
         var yearLeft =estimatedAge - currentAge
         var snacka = +prompt("Enter Amount of snacks per day")
+        document.write("Amount of snacks per day:" + " " + snacka + "<br>")
         document.write("You will need" + " " + yearLeft * snacka + " " + snackn + "to last you until the ripe old age of" + " " + estimatedAge)
     </script>
 </body>
